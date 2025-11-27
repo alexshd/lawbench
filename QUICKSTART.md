@@ -34,7 +34,7 @@ Think of it as a **cardiac defibrillator** for your service.
 ### 1. Install
 
 ```bash
-go get github.com/alexshd/trdynamics/lawbench
+go get github.com/alexshd/lawbench
 ```
 
 ### 2. Add Governor to your HTTP server
@@ -44,7 +44,7 @@ package main
 
 import (
     "net/http"
-    "github.com/alexshd/trdynamics/lawbench"
+    "github.com/alexshd/lawbench"
 )
 
 func main() {

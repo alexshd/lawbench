@@ -13,11 +13,11 @@
 ## Quick Start
 
 ```bash
-go get github.com/alexshd/trdynamics/lawbench
+go get github.com/alexshd/lawbench
 ```
 
 ```go
-import "github.com/alexshd/trdynamics/lawbench"
+import "github.com/alexshd/lawbench"
 
 governor := lawbench.NewGovernor(1.5)
 
@@ -193,7 +193,7 @@ package main
 import (
     "net/http"
     "time"
-    "github.com/alexshd/trdynamics/lawbench"
+    "github.com/alexshd/lawbench"
 )
 
 func main() {
@@ -272,7 +272,7 @@ package main
 import (
     "net/http"
     "time"
-    "github.com/alexshd/trdynamics/lawbench"
+    "github.com/alexshd/lawbench"
 )
 
 func main() {

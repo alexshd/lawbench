@@ -11,7 +11,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/alexshd/trdynamics/lawbench"
+	"github.com/alexshd/lawbench"
 	"github.com/lmittmann/tint"
 )
 
